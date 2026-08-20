@@ -1,7 +1,8 @@
-# JSON 資料庫重構待辦
+# 可編輯報價與 20 組風格套用待辦
 
-- [x] 建立 `client/src/data/quote-data.json`，整理 `industries` 與 `starterItems` 的資料結構。
-- [x] 移除 `Home.tsx` 內嵌的重複資料，改用 JSON import。
-- [x] 保留行業選擇、報價預覽、加項目與金額計算互動。
-- [x] 執行 TypeScript 檢查與 production build。
-- [x] 確認首頁載入與資料引用沒有錯誤。
+- [x] 建立 `quote-styles.json`，提供 20 組版面風格參數。
+- [x] 將報價結果資料改為可編輯狀態，支援品項名稱、說明與金額更新。
+- [x] 新增風格選擇器與「套用風格」操作。
+- [x] 讓報價預覽根據選定風格即時變更顏色、字體、圓角、陰影與版面密度。
+- [x] 執行 TypeScript 檢查、production build 與預覽驗證。
+- [x] 建立 checkpoint 並交付更新後網站。

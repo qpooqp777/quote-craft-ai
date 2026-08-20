@@ -92,6 +92,14 @@ body {
 button, a, select, textarea { font-family: inherit; }
 button:focus-visible, a:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid #0f8f86; outline-offset: 3px; }
 .font-serif { font-family: 'DM Serif Display', 'Noto Serif TC', serif; }
+.quote-mark { position: relative; overflow: hidden; }
+.quote-mark-back, .quote-mark-front { position: absolute; display: block; height: 17px; width: 13px; border: 2px solid #f4f1eb; transform: rotate(-12deg); }
+.quote-mark-back { left: 9px; top: 8px; opacity: .45; }
+.quote-mark-front { left: 15px; top: 13px; border-color: #7bcfc1; background: #222321; }
+.quote-mark-footer .quote-mark-back, .quote-mark-footer .quote-mark-front { transform: scale(.8) rotate(-12deg); }
+.quote-mark-footer .quote-mark-back { left: 7px; top: 5px; }
+.quote-mark-footer .quote-mark-front { left: 12px; top: 9px; }
+.proof-tag { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid rgba(15,143,134,.22); background: #e7f3ef; color: #0f8f86; padding: 0.28rem 0.48rem; font-size: 9px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
 .paper-card { transform-origin: 80% 20%; transition: transform 260ms cubic-bezier(.23,1,.32,1), box-shadow 260ms cubic-bezier(.23,1,.32,1); }
 .paper-card:hover { transform: rotate(1deg) translateY(-5px); box-shadow: 0 30px 88px rgba(47,53,48,.19); }
 @media (prefers-reduced-motion: no-preference) {
