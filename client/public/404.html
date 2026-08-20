@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>報價智造</title>
+    <script>
+      const path = window.location.pathname;
+      const repo = "/quote-craft-ai";
+      const route = path.startsWith(repo) ? path.slice(repo.length) : path;
+      window.location.replace(`${repo}/?redirect=${encodeURIComponent(route + window.location.search + window.location.hash)}`);
+    </script>
+  </head>
+  <body>正在返回報價智造……</body>
+</html>

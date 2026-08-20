@@ -1,9 +1,7 @@
-# 報價單公司資訊、智慧計算與草稿儲存待辦
+# GitHub 與 GitHub Pages 部署待辦
 
-- [x] 擴充報價資料，加入公司地址、統一編號、聯絡資訊、品牌主色、折扣與稅率。
-- [x] 將報價項目補上數量與單價，保留即時小計計算。
-- [x] 在報價單上方加入公司資訊與品牌主色編輯欄位。
-- [x] 加入折扣、稅率、未稅小計、稅額與含稅總額的自動計算。
-- [x] 新增儲存草稿、載入草稿與清除草稿操作。
-- [x] 執行 TypeScript 檢查、production build 與互動預覽驗證。
-- [x] 建立 checkpoint 並交付更新後網站。
+- [ ] 檢查 Git 工作樹、目前分支與 GitHub 登入狀態。
+- [ ] 確認 Vite 靜態部署的 base 路徑與 GitHub Pages workflow 設定。
+- [ ] 建立私有 GitHub repository 並推送目前專案。
+- [ ] 啟用 GitHub Pages，使用 GitHub Actions 建置與部署。
+- [ ] 驗證 Actions、Pages 狀態與公開網址。
