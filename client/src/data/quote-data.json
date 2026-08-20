@@ -1,0 +1,65 @@
+{
+  "industries": [
+    {
+      "id": "interior-design",
+      "label": "室內設計",
+      "icon": "⌂",
+      "note": "丈量、設計與工程",
+      "quoteDetails": ["丈量費", "設計費", "工程管理"]
+    },
+    {
+      "id": "marketing-consulting",
+      "label": "行銷顧問",
+      "icon": "✦",
+      "note": "策略、內容與投放",
+      "quoteDetails": ["策略顧問", "內容製作", "月度投放"]
+    },
+    {
+      "id": "photography",
+      "label": "攝影服務",
+      "icon": "◌",
+      "note": "拍攝、修圖與授權",
+      "quoteDetails": ["拍攝日", "精修張數", "使用授權"]
+    },
+    {
+      "id": "contracting",
+      "label": "工程承包",
+      "icon": "⌁",
+      "note": "工料、工期與保固",
+      "quoteDetails": ["材料工料", "進場節點", "保固"]
+    },
+    {
+      "id": "freelance",
+      "label": "自由接案",
+      "icon": "↗",
+      "note": "專案、里程碑與交付",
+      "quoteDetails": ["企劃費", "里程碑", "追加工時"]
+    }
+  ],
+  "starterItems": [
+    {
+      "id": "brand-identity",
+      "industryId": "marketing-consulting",
+      "name": "品牌識別設計",
+      "detail": "Logo、色彩與基礎規範",
+      "price": 28000,
+      "unit": "式"
+    },
+    {
+      "id": "social-templates",
+      "industryId": "marketing-consulting",
+      "name": "社群版型套組",
+      "detail": "IG 貼文 12 款，可編輯檔",
+      "price": 12000,
+      "unit": "套"
+    },
+    {
+      "id": "project-management",
+      "industryId": "marketing-consulting",
+      "name": "專案管理與溝通",
+      "detail": "含兩次提案修改",
+      "price": 6000,
+      "unit": "案"
+    }
+  ]
+}
